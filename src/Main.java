@@ -1,13 +1,57 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
-    }
+void main() {
+    var dog =  8;
+    var cat = 3.6;
+    var paper = 763789;
+    System.out.println("Задача 1");
+    System.out.println("Значение переменной dog = " + dog);
+    System.out.println("Значение переменной cat = " + cat);
+    System.out.println("Значение переменной paper = " + paper);
+    System.out.println("Задача 2");
+    var enlargedDog =  dog + 4;
+    var enlargedCat = cat + 4;
+    var enlargedPaper = paper + 4;
+    System.out.println(enlargedDog);
+    System.out.println(enlargedCat);
+    System.out.println(enlargedPaper);
+    System.out.println("Задача 3");
+    var smallerDog =  dog - 3.5;
+    var smallerCat = cat - 1.6;
+    var smallerPaper = paper - 7639;
+    System.out.println(smallerDog);
+    System.out.println(smallerCat);
+    System.out.println(smallerPaper);
+    System.out.println("Задача 4");
+    var friend = 19;
+    var multiplicationFriend = friend * 2;
+    var complexFriend = (friend * 2)/7;
+    System.out.println(friend);
+    System.out.println(multiplicationFriend);
+    System.out.println(complexFriend);
+    System.out.println("Задача 5");
+    var frog = 3.5;
+    var multiplicationFrog = frog * 10;
+    var complexFrog = (frog * 10)/3.5;
+    var resultFrog = complexFrog + 4;
+    System.out.println(frog);
+    System.out.println(multiplicationFrog);
+    System.out.println(complexFrog);
+    System.out.println(resultFrog);
+    System.out.println("Задача 6");
+    var oneBox = 78.2;
+    var twoBox = 82.7;
+    var massDifference = twoBox - oneBox;
+    System.out.println("Разница между массами бойцов: " + massDifference + " кг");
+    System.out.println("общая масса двух бойцов = " + oneBox + twoBox + "кг");
+    System.out.println("Задача 7");
+    var remainsBox = twoBox % oneBox;
+    System.out.println("остаток от деления между двумя весами = " + remainsBox);
+    System.out.println("Задача 8");
+    var totalHours = 640;
+    var hours = 8;
+    var worker = totalHours / hours;
+    System.out.println("Всего работников в компании — " + worker + " человек");
+    var newWorker = worker + 94;
+    var newTotalHours = newWorker * hours;
+    System.out.println("Если в компании работает " + newWorker + " человек, то всего " + newTotalHours + " часов работы может быть проделено между сотрудниками");
 }
