@@ -1,4 +1,3 @@
-
 void main() {
     var dog =  8;
     var cat = 3.6;
