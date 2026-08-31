@@ -1,4 +1,5 @@
-void main() {
+public class Main {
+    public static void main(String[] args) {
     var dog =  8;
     var cat = 3.6;
     var paper = 763789;
@@ -53,4 +54,5 @@ void main() {
     var newWorker = worker + 94;
     var newTotalHours = newWorker * hours;
     System.out.println("Если в компании работает " + newWorker + " человек, то всего " + newTotalHours + " часов работы может быть проделено между сотрудниками");
+    }
 }
