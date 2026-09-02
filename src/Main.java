@@ -1,5 +1,6 @@
-void main() {
-    var dog =  8;
+public class Main {
+    public static void main(String[] args) {
+    var dog =  8.0;
     var cat = 3.6;
     var paper = 763789;
     System.out.println("Задача 1");
@@ -7,41 +8,42 @@ void main() {
     System.out.println("Значение переменной cat = " + cat);
     System.out.println("Значение переменной paper = " + paper);
     System.out.println("Задача 2");
-    var enlargedDog =  dog + 4;
-    var enlargedCat = cat + 4;
-    var enlargedPaper = paper + 4;
-    System.out.println(enlargedDog);
-    System.out.println(enlargedCat);
-    System.out.println(enlargedPaper);
+    dog = dog + 4;
+    cat = cat + 4;
+    paper = paper + 4;
+    System.out.println(dog);
+    System.out.println(cat);
+    System.out.println(paper);
     System.out.println("Задача 3");
-    var smallerDog =  dog - 3.5;
-    var smallerCat = cat - 1.6;
-    var smallerPaper = paper - 7639;
-    System.out.println(smallerDog);
-    System.out.println(smallerCat);
-    System.out.println(smallerPaper);
+    dog = dog - 3.5;
+    cat = cat - 1.6;
+    paper = paper - 7639;
+    System.out.println(dog);
+    System.out.println(cat);
+    System.out.println(paper);
     System.out.println("Задача 4");
     var friend = 19;
-    var multiplicationFriend = friend * 2;
-    var complexFriend = (friend * 2)/7;
     System.out.println(friend);
-    System.out.println(multiplicationFriend);
-    System.out.println(complexFriend);
+    friend = friend + 2;
+    System.out.println(friend);
+    friend = friend / 7;
+    System.out.println(friend);
     System.out.println("Задача 5");
     var frog = 3.5;
-    var multiplicationFrog = frog * 10;
-    var complexFrog = (frog * 10)/3.5;
-    var resultFrog = complexFrog + 4;
     System.out.println(frog);
-    System.out.println(multiplicationFrog);
-    System.out.println(complexFrog);
-    System.out.println(resultFrog);
+    frog = frog * 10;
+    System.out.println(frog);
+    frog = frog / 3.5;
+    System.out.println(frog);
+    frog = frog + 4;
+    System.out.println(frog);
     System.out.println("Задача 6");
     var oneBox = 78.2;
     var twoBox = 82.7;
+    var totalMass = oneBox + twoBox;
     var massDifference = twoBox - oneBox;
     System.out.println("Разница между массами бойцов: " + massDifference + " кг");
-    System.out.println("общая масса двух бойцов = " + oneBox + twoBox + "кг");
+    System.out.println("общая масса двух бойцов = " + totalMass+ "кг");
     System.out.println("Задача 7");
     var remainsBox = twoBox % oneBox;
     System.out.println("остаток от деления между двумя весами = " + remainsBox);
@@ -53,4 +55,5 @@ void main() {
     var newWorker = worker + 94;
     var newTotalHours = newWorker * hours;
     System.out.println("Если в компании работает " + newWorker + " человек, то всего " + newTotalHours + " часов работы может быть проделено между сотрудниками");
+    }
 }
